@@ -8,9 +8,10 @@ import img5 from './L5.png'; // Importação direta da imagem
 import img6 from './L6.png'; // Importação direta da imagem
 import img7 from './L7.png'; // Importação direta da imagem
 import img8 from './Right.png'; // Importação direta da imagem
+import beauty from './beauty.jpg'; // Importação direta da imagem
 
 const images = {
-    imgOne, img1,img2,img3,img4,img5,img6,img7,img8
+    imgOne, img1,img2,img3,img4,img5,img6,img7,img8,beauty
 };
 
 export default images;
