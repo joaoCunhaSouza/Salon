@@ -42,6 +42,43 @@ export function Home() {
             <Routes>
                 <Route path="/More" element={<More />} />
             </Routes>
+
+            <div className="container-horarios"></div>
+            
+
+
+<footer>
+    <div className="container-footer"> 
+<div className="alinha-left">
+   <div className="tit"><h1> Jaque´s Beauty Salon</h1></div> 
+   
+   <div className="alinhamento">
+
+        <div className="alinha-essa-merda">
+   <div className="contacts"><h1 className='margem'>Contacts</h1></div>
+    <div className="numero">(48) 9991201255</div>
+    </div>
+    
+
+    <div className="container2">
+        <div className="premios"><h1>Our Awards</h1></div>
+        <div className="container_circulo">
+            <div className="circulo"></div>
+            <div className="traco"></div>
+            <div className="descricao"> Better Hairdresser Florianópolis</div>
+
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+    </div>
+    
+</footer>
+
+
+
         </>
     );
 }

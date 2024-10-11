@@ -102,3 +102,65 @@ strong {
     justify-content: center;
 
 }
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+   color: white;
+   padding: 65px;
+   
+  
+}
+
+.alinha-left{
+    margin-left: 100px;
+}
+
+
+.alinhamento{
+display: flex;
+
+
+}
+.alinha-essa-merda{
+   margin-right: 150px;
+   padding: 0;
+}
+
+.container_circulo{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.circulo{
+background-color: #d59a42;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+}
+
+.traco{
+    width: 2px;
+    height: 50px;
+    background-color: white;
+    margin: 17px;
+}
+
+.contacts{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.numero{
+    margin: 0;
+    padding: 0;
+}
+
+.margem{
+    margin-bottom: 0;
+
+}
