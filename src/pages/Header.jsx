@@ -16,7 +16,7 @@ export function Header() {
           
           <div className="login">
             
-          <FontAwesomeIcon icon="fa-solid fa-user" />
+        
           <li className="no-list-style-0"><Link to="/Register" className="more-link-0">Sing in</Link></li>
           </div>
         </ul>

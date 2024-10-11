@@ -27,7 +27,7 @@ export function Home() {
                             </ul>
                         </div>
 
-                        <img src={images.img8} alt="Photographer's insight" className='logo-png' />
+                      
                     </div>
                 </Container>
             </div>
@@ -39,11 +39,7 @@ export function Home() {
 
 
          
-            <Routes>
-                <Route path="/More" element={<More />} />
-            </Routes>
-
-            <div className="container-horarios"></div>
+            
             
 
 
@@ -77,6 +73,10 @@ export function Home() {
     
 </footer>
 
+<Routes>
+                <Route path="/More" element={<More />} />
+            </Routes>
+        
 
 
         </>
