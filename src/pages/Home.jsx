@@ -11,11 +11,8 @@ export function Home() {
                 <Container>
                     <div className="align">
                         <div className="content">
-                            <h1 className='font'><strong>Exclusive</strong> workouts
-                                for you!</h1>
-                            <p>We create exclusive and unique workouts for you.
-                                Invest in your body and have much more performance
-                                and quality of life.</p>
+                            <h1 className='font'><strong>Feel More Beautiful</strong></h1>
+                            <p>At Jaque's, our expert stylists and luxurious treatments leave you radiant.</p>
 
                             <ul>
                                 <li className="no-list-style">

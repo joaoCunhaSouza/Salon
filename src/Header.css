@@ -12,13 +12,13 @@
 }
 
 .more-link {
-    color: #ffffff;
-    background-color: #89C5CC;
+    color: black;
+    background-color: #F3ABC5;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 35px;
     transition: background-color 0.3s ease, color 0.3s ease;
     font-family: 'Inter';
     font-weight: 500;
