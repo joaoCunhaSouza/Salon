@@ -14,8 +14,11 @@ export function Header() {
           <li><Link to="/Features"> About</Link></li>
           <li><Link to="/Community"> Contact</Link></li>
           
-          div
+          <div className="login">
+            
+          <FontAwesomeIcon icon="fa-solid fa-user" />
           <li className="no-list-style-0"><Link to="/Register" className="more-link-0">Sing in</Link></li>
+          </div>
         </ul>
       </nav>
     </header>
