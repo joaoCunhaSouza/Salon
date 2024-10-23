@@ -3,9 +3,31 @@
 
 .header{
     background-color: #F3ABC5;
-    height: 70px;
+    height: 75px;
+    
 }
 
+.linha{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+
+  
+  .arrumar li a{
+    margin: 0.5rem 0; /* Espaçamento entre os itens da lista */
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+
+
+
+  
 h2{
     font-size: 16px;
 }
@@ -13,6 +35,17 @@ h2{
 .logo{
     font-family: 'inter';
     font-weight: 600;
+
+
+}
+
+.ston{
+    font-size: 16px;font-weight: 600;
+}
+h1{
+    margin: 0;
+    padding: 0 20px 0 0;
+
 }
 .arrumar{
     display: flex;
@@ -32,6 +65,11 @@ h2{
     height: 20px; /* Define a altura do ícone */
 }
 
+.svg-inline--fa.fa-star {
+    width: 15px; /* Define a largura do ícone */
+    height: 15px; /* Define a altura do ícone */
+}
+
 ul.ul {
     gap: 220px;
     }
@@ -42,23 +80,10 @@ ul.ul {
     align-items: center;
     justify-content: center;
 }
-.more-link {
-    color: black;
-    background-color: #F3ABC5;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 35px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    font-family: 'Inter';
-    font-weight: 500;
-}
 
 .no-list-style {
     list-style-type: none;
     margin: 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
