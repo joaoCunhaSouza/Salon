@@ -1,14 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+.maps-container {
+    margin-top: 20px; /* Espaço acima do mapa */
+    text-align: center; /* Centraliza o título do mapa */
+}
+
+.maps-container iframe {
+    width: 80vw; /* Largura total da tela */
+    height: 550px; /* Altura do mapa */
+    border: none; /* Remove borda padrão */
+}
+
+.oi{
+    padding: 35px 165px;
 
 
+}
+
+
+.quad {
+    display: grid; /* Ativa o grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de igual largura */
+    grid-template-rows: repeat(2, auto); /* 2 linhas automáticas */
+    gap: 15px; /* Espaçamento entre os itens do grid */
+}
+
+.grid-item {
+    background-color: #a5a5a5; /* Cor de fundo dos itens do grid */
+    display: flex; /* Ativa o flexbox para centralizar conteúdo */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 250px;
+    height: 250px; /* Altura fixa para os itens */
+}
+
+.container-info{
+  
+padding: 85px 165px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    background-color: rgb(148, 148, 148);
+    width: 500px;
+    height: 510px;
+
+}
+
+.main{
+ 
+    height: 2000px;
+}
 .background {
     background-image: url(./img/beauty.jpg);
     background-size: cover;      /* Ensures the image covers the container */
-    background-position: center;  /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     width: 100%;
-    height: 610px; /* Alterado para altura responsiva */
+    height: 750px; /* Alterado para altura responsiva */
     margin: 0;
     color: #4D4D4D;
     display: flex;
@@ -20,7 +71,7 @@
 p {
     font-weight: 600;
     font-size: 18px;
-    width: 438px;
+   
     line-height: 28px;
     color: black;
 }
@@ -168,3 +219,15 @@ height: 50px;
     margin-bottom: 0;
 
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-top: 40px;
+    padding: 0;
+    list-style-type: none;
+}
+
+
