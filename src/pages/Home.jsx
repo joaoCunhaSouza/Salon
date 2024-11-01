@@ -3,6 +3,8 @@ import React from 'react';
 import Container from '../container';
 import '../main-page.css';
 import { More } from "./More";
+
+
 import { Link, Route, Routes } from 'react-router-dom';
 import MainSection from "./MainSection/"; // Importe MainSection
 

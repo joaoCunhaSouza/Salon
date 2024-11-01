@@ -1,11 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import {Header} from './pages/Header';
-import { Features } from "./pages/Features";
-import { Community } from "./pages/Community";
-import { Blog } from "./pages/Blog";
-import { Pricing } from "./pages/Pricing";
-import { Register } from "./pages/Register";
+import { About } from "./pages/About";
+import { Contact } from "./pages/Contact";
 import Container from './container';
 import './style.css';
 
@@ -18,6 +15,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+
         {/* Add other routes as needed */}
       </Routes>
     </>

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faStar } from '@fortawesome/free-solid-svg-icons'; // Importando o ícone da estrela
 import '../Header.css'; 
 
+
 export function Header() {
   return (
     <header className="header">
@@ -17,8 +18,8 @@ export function Header() {
         <ul className="ul">
           <div className="arrumar">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/Features">About</Link></li>
-            <li><Link to="/Community">Contact</Link></li>
+            <li><Link to="/About">About</Link></li>
+            <li><Link to="/Contact">Contact</Link></li>
           </div>
 
           <div className="login">

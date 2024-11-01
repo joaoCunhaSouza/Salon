@@ -1,4 +1,4 @@
-export function Community() {
+export function Contact() {
 
 
     return (
