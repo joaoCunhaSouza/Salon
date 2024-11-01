@@ -6,7 +6,7 @@
 }
 
 .maps-container iframe {
-    width: 80vw; /* Largura total da tela */
+    width: 85vw; /* Largura total da tela */
     height: 550px; /* Altura do mapa */
     border: none; /* Remove borda padrão */
 }
@@ -64,13 +64,14 @@
 }
 
 .grid-item {
-    background-color: #a5a5a5; /* Cor de fundo dos itens do grid */
-    display: flex; /* Ativa o flexbox para centralizar conteúdo */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    width: 250px;
-    height: 250px; /* Altura fixa para os itens */
-}
+    background-color: #f5f5f5; /* Fundo claro para contraste */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 16px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center;
+    max-width: 300px; /* Largura máxima para manter tamanho consistente */
+    margin: 10px;
+  }
 
 .container-info{
   

@@ -32,8 +32,7 @@ export function Home() {
                 </div>
 
                 <div className="oi">
-                   s
-                </div>
+                                </div>
 
                 <div className="maps-container">
                     <h2>Find Us</h2>
