@@ -13,39 +13,39 @@ const MainSection = () => (
     />
     <GridItem
     
-      title="Service 2"
-      description="Description for service 2."
+      title="Massage"
+      description="Dolorum totam nulla aspernatur obcaecati laudantium quie."
    
       dateText="To schedule"
     />
     <GridItem
 
-      title="Service 3"
-      description="Description for service 3."
+      title="Hairdresser"
+      description="Totam ipsum dolor sit amet consectetur adipiselit. asperiores officiis iste."
   
       dateText="To schedule"
     />
 
 <GridItem
 
-title="Service 4"
-description="Description for service 3."
+title="Progressive"
+description="Obcaecati dolor  consecteasperiores officiis iste optio! Excepturi sun."
 
 dateText="To schedule"
 />
 
 <GridItem
 
-title="Service 5"
-description="Description for service 3."
+title="Eyebrows"
+description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab!"
 
 dateText="To schedule"
 />
 
 <GridItem
 
-title="Service 6"
-description="Description for service 3."
+title="Pedicure"
+description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem id enim at placeat."
 
 dateText="To schedule"
 />

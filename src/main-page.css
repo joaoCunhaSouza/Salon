@@ -11,6 +11,32 @@
     border: none; /* Remove borda padrão */
 }
 
+.logo-h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Cor escura para destaque */
+    margin-bottom: 8px;
+  }
+  
+  .descricao-h1 {
+    font-size: 16px;
+    color: #666; /* Cor cinza para descrição */
+    margin-bottom: 12px;
+  }
+  
+  .date {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto-h1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #d4af37; /* Dourado para o texto de agendamento */
+  }
+
 .oi{
     padding: 35px 165px;
 
