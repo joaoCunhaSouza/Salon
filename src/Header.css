@@ -19,7 +19,7 @@
 
   
   .arrumar li a{
-    margin: 0.5rem 0; /* Espaçamento entre os itens da lista */
+    margin: 0.5rem 0;
     font-weight: 700;
     font-size: 14px;
   }
@@ -54,20 +54,20 @@ h1{
     gap: 80px;}
 
 .size {
-    color: red; /* Define a cor do texto como vermelho */
-    margin: 0; /* Remove margens */
-    padding: 0; /* Remove preenchimento */
+    color: red;
+    margin: 0; 
+    padding: 0; 
 }
 
-/* Seleciona corretamente o ícone Font Awesome */
+
 .svg-inline--fa.fa-user {
-    width: 20px; /* Define a largura do ícone */
-    height: 20px; /* Define a altura do ícone */
+    width: 20px; 
+    height: 20px; 
 }
 
 .svg-inline--fa.fa-star {
-    width: 15px; /* Define a largura do ícone */
-    height: 15px; /* Define a altura do ícone */
+    width: 15px; 
+    height: 15px; 
 }
 
 ul.ul {
@@ -126,12 +126,12 @@ ul.ul {
 
 .ul {
     display: flex;
-    list-style-type: none; /* Remove as bolinhas da lista */
+    list-style-type: none;
     gap: 1rem;
     padding: 0; 
     margin: 0; 
 }
 
 .ul li {
-    margin: 0 15px; /* Adiciona margem entre os itens */
+    margin: 0 15px; 
 }

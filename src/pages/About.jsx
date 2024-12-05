@@ -9,7 +9,7 @@ export function About() {
       <div className="about-background">
         <Container>
           <div className="about-content">
-            <h1 className="about-title"><strong>About Jaque's Beauty Salon</strong></h1>
+            <h1 className="about-title"><strong className='Letra'>About Jaque's Beauty Salon</strong></h1>
             <p className="about-description">
               At Jaque's Beauty Salon, we are dedicated to bringing out your natural beauty with personalized beauty treatments. Our team of highly skilled professionals is committed to providing an exceptional experience that leaves you feeling refreshed, confident, and pampered.
             </p>

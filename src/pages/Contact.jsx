@@ -8,7 +8,7 @@ export function Contact() {
     <div className="contact-background">
       <Container>
         <div className="contact-content">
-          <h1 className="contact-title"><strong>Contact Jaque's Beauty Salon</strong></h1>
+          <h1 className="contact-title"><strong className='Letras'> Contact Jaque's Beauty Salon</strong></h1>
           <p className="contact-description">
             We would love to hear from you! Whether you have a question, need more information, or want to book an appointment, feel free to reach out to us.
           </p>
@@ -19,7 +19,7 @@ export function Contact() {
           </p>
 
           <ul>
-            <li><strong>Email:</strong> info@jaquesbeautysalon.com</li>
+            <li><strong>Email:</strong> jaquesbeautysalon@gmail.com</li>
             <li><strong>Phone:</strong> +55 48 99999-9999</li>
             <li><strong>Address:</strong> Rua da Beleza, 123, Florianópolis, SC</li>
           </ul>
@@ -31,7 +31,31 @@ export function Contact() {
             Sunday: Closed
           </p>
 
-          
+          <h2>Contact Us</h2>
+          <form className="contact-form">
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" className="contact-submit">Send Message</button>
+          </form>
+
           <Link to="/" className="back-link">Back to Home</Link>
         </div>
       </Container>

@@ -1,17 +1,17 @@
-/* Global Styles */
+
 body {
   font-family: 'Inter', 'Open Sans', sans-serif;
-  background-color: #f9f9f9; /* Cinza Claro Suave */
+  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
-  color: #333333; /* Preto Suave */
+  color: #333333; 
 }
 
-/* Wireframe Container */
+
 .wireframe.employee, .wireframe.stock, .wireframe.schedule {
   max-width: 80%;
   margin: 40px auto;
-  background-color: #fdfbf4; /* Bege Claro */
+  background-color: #fdfbf4; 
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -20,9 +20,8 @@ body {
   gap: 30px;
 }
 
-/* Headings */
 
-/* Actions Section */
+
 .actions {
   display: flex;
   justify-content: space-between;
@@ -32,8 +31,8 @@ body {
 }
 
 button {
-  background-color: #ffd1dc; /* Rosa Pastel */
-  color: #222222; /* Preto Intenso */
+  background-color: #ffd1dc; 
+  color: #222222;
   border: none;
   padding: 14px 28px;
   font-size: 16px;
@@ -43,15 +42,15 @@ button {
 }
 
 button:hover {
-  background-color: #f3abc5; /* Rosa Vivo */
-  color: #ffffff; /* Branco */
-  transform: scale(1.05); /* Efeito de Zoom */
+  background-color: #f3abc5; 
+  color: #ffffff;
+  transform: scale(1.05); 
 }
 
 .search-input {
   padding: 12px;
   font-size: 16px;
-  border: 1px solid #cccccc; /* Cinza Suave */
+  border: 1px solid #cccccc; 
   border-radius: 12px;
   width: 100%;
   max-width: 350px;
@@ -63,25 +62,25 @@ button:hover {
   width: 100%;
   border-collapse: collapse;
   margin-top: 30px;
-  background-color: #ffffff; /* Branco */
+  background-color: #ffffff; 
 }
 
 .table th, .table td {
-  border: 1px solid #f3abc5; /* Rosa Delicado */
+  border: 1px solid #f3abc5; 
   padding: 16px;
   text-align: center;
   vertical-align: middle;
 }
 
 .table th {
-  background-color: #f3abc5; /* Rosa Vivo */
-  color: #ffffff; /* Branco */
+  background-color: #f3abc5; 
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .table td {
-  color: #333333; /* Preto Suave */
+  color: #333333; 
 }
 
 .table td:first-child {
@@ -92,9 +91,9 @@ button:hover {
   border-right: 2px solid #ffd1dc;
 }
 
-/* Buttons for Actions */
+
 .edit-button, .delete-button {
-  background-color: #ffd1dc; /* Rosa Pastel */
+  background-color: #ffd1dc; 
   border: none;
   padding: 12px 18px;
   border-radius: 12px;
@@ -103,18 +102,17 @@ button:hover {
 }
 
 .edit-button:hover {
-  background-color: #f5f5dc; /* Bege Claro */
-  color: #222222; /* Preto Intenso */
-  transform: scale(1.05); /* Efeito de Zoom */
+  background-color: #f5f5dc; 
+  color: #222222; 
+  transform: scale(1.05); 
 }
 
 .delete-button:hover {
-  background-color: #f3abc5; /* Rosa Vivo */
-  color: #ffffff; /* Branco */
-  transform: scale(1.05); /* Efeito de Zoom */
+  background-color: #f3abc5; 
+  color: #ffffff; 
+  transform: scale(1.05); 
 }
 
-/* Modal Styling */
 .modal {
   display: none;
   position: fixed;
@@ -129,7 +127,7 @@ button:hover {
 }
 
 .modal-content {
-  background-color: #ffffff; /* Branco */
+  background-color: #ffffff; 
   padding: 35px;
   border-radius: 12px;
   width: 500px;
@@ -141,7 +139,7 @@ button:hover {
 .modal-header {
   font-size: 24px;
   margin-bottom: 25px;
-  color: #222222; /* Preto Intenso */
+  color: #222222; 
 }
 
 .modal-footer {
@@ -156,24 +154,24 @@ button:hover {
 }
 
 .modal-footer .cancel-button {
-  background-color: #ffd1dc; /* Rosa Pastel */
+  background-color: #ffd1dc; 
   color: #222222;
 }
 
 .modal-footer .save-button {
-  background-color: #f3abc5; /* Rosa Vivo */
-  color: #ffffff; /* Branco */
+  background-color: #f3abc5; 
+  color: #ffffff; 
 }
 
 .modal-footer .cancel-button:hover {
-  background-color: #f5f5dc; /* Bege Claro */
+  background-color: #f5f5dc; 
 }
 
 .modal-footer .save-button:hover {
-  background-color: #d4af37; /* Dourado */
+  background-color: #d4af37; 
 }
 
-/* Animations */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -185,7 +183,7 @@ button:hover {
   }
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
   .wireframe.employee, .wireframe.stock, .wireframe.schedule {
     max-width: 95%;

@@ -1,100 +1,192 @@
-/* Contact.css */
+/* Contact Page Styles */
 
 .contact-background {
-    background-color: #fff; /* Cor branca para o fundo */
-    padding: 60px 0;
-    color: #000; /* Texto em preto */
-  }
-  
-  .contact-content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #fff; /* Fundo branco para o conteúdo */
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-title {
-    font-size: 36px;
-    color: #F3ABC5; /* Rosa suave #F3ABC5 para o título */
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .contact-description {
-    font-size: 18px;
-    line-height: 1.8;
-    color: #333; /* Cor de texto escura para boa legibilidade */
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .contact-input, .contact-textarea {
-    padding: 12px;
-    font-size: 16px;
-    border: 2px solid #F3ABC5; /* Rosa suave #F3ABC5 para borda */
-    border-radius: 8px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .contact-input:focus, .contact-textarea:focus {
-    border-color: #F3ABC5; /* Rosa suave #F3ABC5 ao focar no input */
-    outline: none;
-  }
-  
-  .contact-textarea {
-    height: 150px;
-    resize: none;
-  }
-  
-  .contact-button {
-    background-color: #F3ABC5; /* Rosa suave #F3ABC5 */
-    color: #fff;
-    padding: 12px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .contact-button:hover {
-    background-color: #F3ABC5; /* Rosa suave #F3ABC5 no hover */
-    opacity: 0.9; /* Leve diminuição da opacidade no hover */
-  }
-  
-  .contact-info {
-    margin-top: 40px;
-    text-align: center;
-  }
-  
-  .contact-info h3 {
-    font-size: 24px;
-    color: #000; /* Preto para o título */
-    margin-bottom: 15px;
-  }
-  
-  .contact-info p {
-    font-size: 18px;
-    color: #333; /* Cor de texto escura para boa legibilidade */
-    line-height: 1.8;
-  }
-  
-  .contact-info a {
-    color: #F3ABC5; /* Rosa suave #F3ABC5 para links */
-    text-decoration: none;
-  }
-  
-  .contact-info a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #fff;
+  padding: 50px 0;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  max-width: 900px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  font-size: 32px;
+  color: #F3ABC5;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #F3ABC5;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+  color: #F3ABC5;
+  font-size: 18px;
+}
+
+.Letras{
+  font-size: 36px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.contact-input,
+.contact-textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: #F3ABC5;
+  box-shadow: 0 0 4px rgba(243, 171, 197, 0.5);
+  outline: none;
+}
+
+.contact-textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-submit {
+  background-color: #F3ABC5;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-submit:hover {
+  background-color: #e296b5;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #F3ABC5;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #e296b5;
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #F3ABC5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #e296b5;
+  text-decoration: underline;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  font-family: 'Arial', sans-serif; /* Apply a consistent font style */
+}
+
+.contact-description p {
+  font-size: 18px; /* Slightly larger text for description paragraphs */
+  color: #555;
+}
+
+.contact-description span {
+  font-weight: bold;
+  color: #F3ABC5;
+}
+
+.contact-title strong {
+  color: #000000; /* Gold color for important words */
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #F3ABC5;
+}
+

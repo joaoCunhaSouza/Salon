@@ -1,8 +1,8 @@
-/* Estilos globais para a página de métricas */
+
 .wireframe.metrics {
   max-width: 80%;
   margin: 40px auto;
-  background-color: #fdfbf4; /* Bege Claro */
+  background-color: #fdfbf4; 
   padding: 40px;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@
 
 
 
-/* Contêiner de métricas */
+
 .metrics-container {
   display: flex;
   justify-content: space-evenly;
@@ -22,7 +22,7 @@
   justify-content: center;
 }
 
-/* Cartão de métrica */
+
 .metric-card {
   background-color: #ffffff;
   padding: 30px;
@@ -41,18 +41,18 @@
 .metric-title {
   margin-top: 15px;
   font-size: 20px;
-  color: #333333; /* Preto suave */
+  color: #333333; 
   font-weight: bold;
   text-transform: capitalize;
 }
 
-/* Círculo de Métrica */
+
 .metric-circle {
   position: relative;
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: #f3abc5; /* Rosa Delicado */
+  background-color: #f3abc5; 
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -67,29 +67,28 @@
 
 .metric-value {
   font-size: 28px;
-  color: #ffffff; /* Branco */
+  color: #ffffff; 
   font-weight: bold;
   letter-spacing: 1px;
 }
 
-/* Barras de métrica (Escada) */
 .metric-deg {
   position: relative;
   width: 100%;
   height: 20px;
-  background-color: #f3abc5; /* Rosa Delicado */
+  background-color: #f3abc5; 
   border-radius: 10px;
   overflow: hidden;
 }
 
 .deg-bar {
   height: 100%;
-  background-color: #ffd1dc; /* Rosa Pastel */
+  background-color: #ffd1dc; 
   border-radius: 10px;
   transition: width 0.5s ease-in-out;
 }
 
-/* Pirâmide de Métrica */
+
 .metric-pyramid {
   position: relative;
   width: 70px;
@@ -102,17 +101,17 @@
 
 .pyramid-level {
   width: 100%;
-  background-color: #ffd1dc; /* Rosa Pastel */
+  background-color: #ffd1dc; 
   margin-bottom: 2px;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 .pyramid-level:hover {
-  background-color: #f3abc5; /* Rosa Delicado */
+  background-color: #f3abc5; 
 }
 
-/* Escada de Métrica */
+
 .metric-ladder {
   position: relative;
   width: 50px;
@@ -125,26 +124,26 @@
 
 .ladder-step {
   width: 100%;
-  background-color: #ffd1dc; /* Rosa Pastel */
+  background-color: #ffd1dc; 
   border-radius: 4px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .ladder-step:hover {
-  background-color: #f3abc5; /* Rosa Delicado */
+  background-color: #f3abc5; 
   transform: scale(1.05);
 }
 
-/* Ajuste específico para a métrica de Employee Engagement */
+
 .metric-ladder .ladder-step {
-  background-color: #f3abc5; /* Cor de fundo mais forte para a Employee Engagement */
+  background-color: #f3abc5; 
 }
 
 .metric-ladder .ladder-step:last-child {
-  background-color: #e0006d; /* Cor vibrante para o último passo */
+  background-color: #e0006d; 
 }
 
-/* Ajustes responsivos para a visualização */
+
 @media (max-width: 1024px) {
   .metrics-container {
     flex-direction: column;

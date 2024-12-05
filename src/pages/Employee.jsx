@@ -20,7 +20,6 @@ export function Employee() {
   };
 
   const handleEdit = (id) => {
-    // Lógica para edição do funcionário
     alert(`Editing employee with ID: ${id}`);
   };
 

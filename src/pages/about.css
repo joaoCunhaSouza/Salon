@@ -1,23 +1,22 @@
-/* About.css */
 
 .about-background {
-    background-color: #fff; /* Cor branca para o fundo */
+    background-color: #fff; 
     padding: 40px 0;
-    color: #000; /* Texto em preto */
+    color: #000; 
   }
   
   .about-content {
     max-width: 900px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #fff; /* Fundo branco para o conteúdo */
+    background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
   
   .about-title {
     font-size: 36px;
-    color: #F3ABC5; /* Rosa suave #F3ABC5 para o título */
+    color: #F3ABC5; 
     text-align: center;
     font-weight: bold;
   }
@@ -25,14 +24,14 @@
   .about-description {
     font-size: 18px;
     line-height: 1.8;
-    color: #333; /* Cor de texto escura para boa legibilidade */
+    color: #333; 
     text-align: justify;
     margin-bottom: 30px;
   }
   
   h2 {
     font-size: 24px;
-    color: #000; /* Preto para subtítulos */
+    color: #000; 
     margin-top: 30px;
     font-weight: 600;
   }
@@ -51,18 +50,22 @@
   .back-link {
     display: inline-block;
     margin-top: 40px;
-    color: #F3ABC5; /* Rosa suave #F3ABC5 para o link */
+    color: #F3ABC5;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 8px;
-    border: 2px solid #F3ABC5; /* Rosa suave #F3ABC5 para borda */
+    border: 2px solid #F3ABC5;
   }
   
   .back-link:hover {
-    background-color: #F3ABC5; /* Rosa suave de fundo ao passar o mouse */
-    color: #fff; /* Texto branco no hover */
+    background-color: #F3ABC5; 
+    color: #fff; 
     border-color: #F3ABC5;
   }
   
+  .Letra{
+    color: black;
+    font-size: 36px;
+  }

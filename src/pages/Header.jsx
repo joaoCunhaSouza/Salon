@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faStar } from '@fortawesome/free-solid-svg-icons'; // Importando o ícone da estrela
+import { faUser, faStar } from '@fortawesome/free-solid-svg-icons'; 
 import '../Header.css'; 
 
 
@@ -11,7 +11,7 @@ export function Header() {
         <div className="linha">
         <h1 className="Logo">Jaque’s</h1>
         <strong className="ston">5.0</strong>
-        <FontAwesomeIcon icon={faStar} /> {/* Usando o ícone da estrela corretamente */}
+        <FontAwesomeIcon icon={faStar} /> {}
       </div>
       </div>
       <nav>

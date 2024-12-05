@@ -21,7 +21,6 @@ export function Stock() {
   };
 
   const handleEdit = (id) => {
-    // Lógica para edição do produto
     alert(`Editing product with ID: ${id}`);
   };
 

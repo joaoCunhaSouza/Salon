@@ -1,50 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .maps-container {
-    margin-top: 20px; /* Espaço acima do mapa */
-    text-align: center; /* Centraliza o título do mapa */
+    margin-top: 20px;
+    text-align: center;
 }
 
 .maps-container iframe {
-    width: 85vw; /* Largura total da tela */
-    height: 550px; /* Altura do mapa */
-    border: none; /* Remove borda padrão */
+    width: 85vw;
+    height: 550px;
+    border: none;
 }
 
 .logo-h1 {
     font-size: 24px;
     font-weight: bold;
-    color: #333; /* Cor escura para destaque */
+    color: #333;
     margin-bottom: 8px;
-    text-decoration: none;  /* Remove qualquer sublinhado */
-    border: none;           /* Remove bordas */
-    box-shadow: none;       /* Remove sombras */
-    background: none;       /* Remove qualquer fundo que possa estar influenciando */
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    background: none;
 }
-
-/* Novo estilo para h1 */
-h1 {
+.font {
     font-family: 'Inter', sans-serif;
     font-weight: 750;
-    font-size: 60px; /* Tamanho maior para destaque */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding */
-    color: #333; /* Cor escura */
-    text-decoration: none; /* Remove o sublinhado */
-    text-transform: none; /* Deixa as letras em maiúsculas */
-    letter-spacing: 1px; /* Adiciona espaçamento entre as letras */
-    line-height: 1.2; /* Ajusta o espaçamento entre as linhas */
-    transition: all 0.3s ease; /* Adiciona transição suave */
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    transition: all 0.3s ease;
 }
 
-h1:hover {
-    color: #000000; /* Altera para dourado no hover */
+.jaques{
 
+    color: white;
 }
 
 .descricao-h1 {
     font-size: 16px;
-    color: #666; /* Cor cinza para descrição */
+    color: #666;
     margin-bottom: 12px;
 }
 
@@ -54,7 +52,6 @@ h1:hover {
     align-items: center;
     justify-content: center;
 }
-
 
 .oi {
     padding: 35px 165px;
@@ -74,28 +71,28 @@ h1:hover {
 }
 
 .quad {
-    display: grid; /* Ativa o grid layout */
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas de igual largura */
-    grid-template-rows: repeat(2, auto); /* 2 linhas automáticas */
-    gap: 15px; /* Espaçamento entre os itens do grid */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
 }
 
 .grid-item {
-    background-color: #f5f5f5; /* Fundo claro para contraste */
-    border-radius: 8px; /* Bordas arredondadas */
-    padding: 16px; /* Espaçamento interno */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 300px; /* Largura máxima para manter tamanho consistente */
+    max-width: 300px;
     margin: 10px;
 }
 
 .container-info {
-    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    width: 100%;
     display: flex;
-    align-items: center; /* Centraliza os itens verticalmente */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    padding: 10% 0; /* Remove qualquer padding, já que não é necessário para centralizar */
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0;
 }
 
 .info {
@@ -110,15 +107,15 @@ h1:hover {
 
 .background {
     background-image: url(./img/beauty.jpg);
-    background-size: cover; /* Ensures the image covers the container */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 750px; /* Alterado para altura responsiva */
+    height: 750px;
     margin: 0;
     color: #4D4D4D;
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Centraliza o conteúdo horizontalmente */
+    justify-content: flex-end;
 }
 
 p {
@@ -130,35 +127,46 @@ p {
 }
 
 h1.font a {
-    text-decoration: none !important;
+    text-decoration: none ;
 }
 
 .font {
     font-size: 60px;
     margin: 0;
-    text-decoration: none;  /* Remove qualquer sublinhado */
-    border: none;           /* Remove bordas */
-    box-shadow: none;       /* Remove sombras */
-    background: none;       /* Remove qualquer fundo que possa estar influenciando */
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    background: none;
 }
 
 strong {
     color: #000000;
     margin: 0;
     padding: 0;
-    font-size: 60px;
+    font-size: 36px;
     font-weight: 750;
     text-decoration: none;
-    display: inline; /* Certifica-se de que o elemento se comporta como texto */
+    display: inline;
+}
+
+.letras{
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 750;
+    text-decoration: none;
+    display: inline;
+
 }
 
 h1.font {
-    text-decoration: none; /* Remove sublinhados */
-    border: none; /* Remove bordas */
-    box-shadow: none; /* Remove sombras */
-    background: none; /* Remove qualquer fundo que possa estar influenciando */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding padrão */
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -277,7 +285,6 @@ h1.font {
     margin-bottom: 0;
 }
 
-
 ul {
     margin: 0;
     padding: 0;
@@ -288,3 +295,9 @@ li {
     padding: 0;
     list-style-type: none;
 }
+
+.find{
+    color: black;
+}
+
+

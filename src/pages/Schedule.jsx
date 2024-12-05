@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles-employee.css";
-import '../main-page.css';  // Adicionando o arquivo principal para reutilizar estilos
+import '../main-page.css';  
 
 export function Schedule() {
   const [schedules, setSchedules] = useState([
@@ -21,7 +21,6 @@ export function Schedule() {
   };
 
   const handleEdit = (id) => {
-    // Lógica para edição do horário
     alert(`Editing schedule with ID: ${id}`);
   };
 
