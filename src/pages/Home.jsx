@@ -1,12 +1,9 @@
-// Home.jsx
 import React from 'react';
 import Container from '../container';
 import '../main-page.css';
 import { More } from "./More";
-
-
 import { Link, Route, Routes } from 'react-router-dom';
-import MainSection from "./MainSection/"; // Importe MainSection
+import MainSection from "./MainSection"; // Corrigido o caminho para o MainSection
 
 export function Home() {
     return (
@@ -30,11 +27,10 @@ export function Home() {
 
             <main className='main'>
                 <div className="container-info">
-                    <MainSection /> {/* Use o componente MainSection */}
+                    <MainSection />
                 </div>
 
-                <div className="oi">
-                                </div>
+                <div className="oi"></div>
 
                 <div className="maps-container">
                     <h2>Find Us</h2>

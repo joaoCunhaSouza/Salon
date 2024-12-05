@@ -1,55 +1,36 @@
-// MainSection.jsx
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link for navigation
 import GridItem from "../pages/GridItem/";
 
 const MainSection = () => (
   <section className="quad">
-    <GridItem
-  
-      title="Nails Care"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-  
-      dateText="To schedule"
-    />
-    <GridItem
-    
-      title="Massage"
-      description="Dolorum totam nulla aspernatur obcaecati laudantium quie."
-   
-      dateText="To schedule"
-    />
-    <GridItem
+    <Link to="/Schedule">
+      <GridItem
+        title="Schedule"
+        description="Easily manage and organize your daily tasks and appointments."
+      />
+    </Link>
 
-      title="Hairdresser"
-      description="Totam ipsum dolor sit amet consectetur adipiselit. asperiores officiis iste."
-  
-      dateText="To schedule"
-    />
+    <Link to="/Employee">
+      <GridItem
+        title="Employee"
+        description="Efficiently oversee and track employee records and performance."
+      />
+    </Link>
 
-<GridItem
+    <Link to="/Metrics">
+      <GridItem
+        title="Metrics"
+        description="Analyze essential data to drive insights and improve performance."
+      />
+    </Link>
 
-title="Progressive"
-description="Obcaecati dolor  consecteasperiores officiis iste optio! Excepturi sun."
-
-dateText="To schedule"
-/>
-
-<GridItem
-
-title="Eyebrows"
-description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab!"
-
-dateText="To schedule"
-/>
-
-<GridItem
-
-title="Pedicure"
-description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem id enim at placeat."
-
-dateText="To schedule"
-/>
-    {/* Add more <GridItem /> components as needed */}
+    <Link to="/Stock">
+      <GridItem
+        title="Stock"
+        description="Manage your product inventory with complete accuracy and control."
+      />
+    </Link>
   </section>
 );
 

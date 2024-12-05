@@ -1,0 +1,68 @@
+/* About.css */
+
+.about-background {
+    background-color: #fff; /* Cor branca para o fundo */
+    padding: 40px 0;
+    color: #000; /* Texto em preto */
+  }
+  
+  .about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-title {
+    font-size: 36px;
+    color: #F3ABC5; /* Rosa suave #F3ABC5 para o título */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .about-description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333; /* Cor de texto escura para boa legibilidade */
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #000; /* Preto para subtítulos */
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  
+  li {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 40px;
+    color: #F3ABC5; /* Rosa suave #F3ABC5 para o link */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #F3ABC5; /* Rosa suave #F3ABC5 para borda */
+  }
+  
+  .back-link:hover {
+    background-color: #F3ABC5; /* Rosa suave de fundo ao passar o mouse */
+    color: #fff; /* Texto branco no hover */
+    border-color: #F3ABC5;
+  }
+  

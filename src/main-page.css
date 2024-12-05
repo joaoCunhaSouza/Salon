@@ -16,32 +16,50 @@
     font-weight: bold;
     color: #333; /* Cor escura para destaque */
     margin-bottom: 8px;
-  }
-  
-  .descricao-h1 {
+    text-decoration: none;  /* Remove qualquer sublinhado */
+    border: none;           /* Remove bordas */
+    box-shadow: none;       /* Remove sombras */
+    background: none;       /* Remove qualquer fundo que possa estar influenciando */
+}
+
+/* Novo estilo para h1 */
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 750;
+    font-size: 60px; /* Tamanho maior para destaque */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding */
+    color: #333; /* Cor escura */
+    text-decoration: none; /* Remove o sublinhado */
+    text-transform: none; /* Deixa as letras em maiúsculas */
+    letter-spacing: 1px; /* Adiciona espaçamento entre as letras */
+    line-height: 1.2; /* Ajusta o espaçamento entre as linhas */
+    transition: all 0.3s ease; /* Adiciona transição suave */
+}
+
+h1:hover {
+    color: #000000; /* Altera para dourado no hover */
+
+}
+
+.descricao-h1 {
     font-size: 16px;
     color: #666; /* Cor cinza para descrição */
     margin-bottom: 12px;
-  }
-  
-  .date {
+}
+
+.date {
     margin-top: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .texto-h1 {
-    font-size: 14px;
-    font-weight: 600;
-    color: #d4af37; /* Dourado para o texto de agendamento */
-  }
-
-.oi{
-    padding: 35px 165px;
-
-
 }
+
+
+.oi {
+    padding: 35px 165px;
+}
+
 .more-link {
     color: black;
     background-color: #F3ABC5;
@@ -55,10 +73,9 @@
     font-weight: 500;
 }
 
-
 .quad {
     display: grid; /* Ativa o grid layout */
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas de igual largura */
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas de igual largura */
     grid-template-rows: repeat(2, auto); /* 2 linhas automáticas */
     gap: 15px; /* Espaçamento entre os itens do grid */
 }
@@ -71,31 +88,29 @@
     text-align: center;
     max-width: 300px; /* Largura máxima para manter tamanho consistente */
     margin: 10px;
-  }
-
-.container-info{
-  
-padding: 85px 165px;
-    display: flex;
-   
-    align-items: center;
-    justify-content: space-between;
 }
 
-.info{
+.container-info {
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    padding: 10% 0; /* Remove qualquer padding, já que não é necessário para centralizar */
+}
+
+.info {
     background-color: rgb(148, 148, 148);
     width: 500px;
     height: 510px;
-
 }
 
-.main{
- 
+.main {
     height: 2000px;
 }
+
 .background {
     background-image: url(./img/beauty.jpg);
-    background-size: cover;      /* Ensures the image covers the container */
+    background-size: cover; /* Ensures the image covers the container */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     width: 100%;
     height: 750px; /* Alterado para altura responsiva */
@@ -106,20 +121,25 @@ padding: 85px 165px;
     justify-content: flex-end; /* Centraliza o conteúdo horizontalmente */
 }
 
-
 p {
     font-weight: 600;
     font-size: 18px;
-   
+    text-decoration: none;
     line-height: 28px;
     color: black;
 }
 
-.font {
+h1.font a {
+    text-decoration: none !important;
+}
 
+.font {
     font-size: 60px;
     margin: 0;
-
+    text-decoration: none;  /* Remove qualquer sublinhado */
+    border: none;           /* Remove bordas */
+    box-shadow: none;       /* Remove sombras */
+    background: none;       /* Remove qualquer fundo que possa estar influenciando */
 }
 
 strong {
@@ -128,7 +148,20 @@ strong {
     padding: 0;
     font-size: 60px;
     font-weight: 750;
+    text-decoration: none;
+    display: inline; /* Certifica-se de que o elemento se comporta como texto */
+}
 
+h1.font {
+    text-decoration: none; /* Remove sublinhados */
+    border: none; /* Remove bordas */
+    box-shadow: none; /* Remove sombras */
+    background: none; /* Remove qualquer fundo que possa estar influenciando */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 .content {
@@ -136,10 +169,8 @@ strong {
     max-width: 700px;
     display: flex;
     flex-direction: column;
-    font-family: "Inter", sans-serif; 
-    
+    font-family: "Inter", sans-serif;
     font-weight: 600;
-    
 }
 
 .align {
@@ -148,24 +179,21 @@ strong {
     align-items: center;
     padding: 20px 15px;
     margin-right: 45px;
-   
-   
 }
 
 .logo-png {
     width: 481px;
     height: 332px;
-
 }
 
-.clients{
+.clients {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
 }
 
-.our-clients{
+.our-clients {
     text-align: center;
     padding: 25px;
     margin: 10px;
@@ -177,99 +205,86 @@ strong {
     width: 75px;
 }
 
-.manage{
+.manage {
     text-align: center;
     width: 580px;
     color: #4D4D4D;
-
-    
-
 }
-.manage h1{
+
+.manage h1 {
     margin: 20px;
     padding: 0;
 }
 
-
-
-.aling{
+.aling {
     display: flex;
     align-items: center;
-    justify-content:flex-end;
-
-
+    justify-content: flex-end;
 }
 
-.container-footer{
+.container-footer {
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
-   color: white;
-   padding: 65px;
-   
-  
+    color: white;
+    padding: 65px;
 }
 
-.alinha-left{
+.alinha-left {
     margin-left: 100px;
 }
 
-
-.alinhamento{
-display: flex;
-
-
-}
-.alinha-essa-merda{
-   margin-right: 150px;
-   padding: 0;
+.alinhamento {
+    display: flex;
 }
 
-.container_circulo{
+.alinha-essa-merda {
+    margin-right: 150px;
+    padding: 0;
+}
 
+.container_circulo {
     display: flex;
     align-items: center;
-
 }
 
-.circulo{
-background-color: #d59a42;
-border-radius: 50%;
-width: 50px;
-height: 50px;
+.circulo {
+    background-color: #d59a42;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
-.traco{
+.traco {
     width: 2px;
     height: 50px;
     background-color: rgb(0, 0, 0);
     margin: 17px;
 }
 
-.contacts{
+.contacts {
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
 }
 
-.numero{
+.numero {
     margin: 0;
     padding: 0;
 }
 
-.margem{
+.margem {
     margin-bottom: 0;
-
 }
 
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 }
-li{
+
+li {
     margin-top: 40px;
     padding: 0;
     list-style-type: none;
 }
-
-

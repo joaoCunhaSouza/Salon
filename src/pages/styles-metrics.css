@@ -1,0 +1,169 @@
+/* Estilos globais para a página de métricas */
+.wireframe.metrics {
+  max-width: 80%;
+  margin: 40px auto;
+  background-color: #fdfbf4; /* Bege Claro */
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+
+/* Contêiner de métricas */
+.metrics-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Cartão de métrica */
+.metric-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.metric-title {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #333333; /* Preto suave */
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Círculo de Métrica */
+.metric-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #f3abc5; /* Rosa Delicado */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.metric-circle:hover {
+  transform: scale(1.1);
+}
+
+.metric-value {
+  font-size: 28px;
+  color: #ffffff; /* Branco */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Barras de métrica (Escada) */
+.metric-deg {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #f3abc5; /* Rosa Delicado */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.deg-bar {
+  height: 100%;
+  background-color: #ffd1dc; /* Rosa Pastel */
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Pirâmide de Métrica */
+.metric-pyramid {
+  position: relative;
+  width: 70px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+}
+
+.pyramid-level {
+  width: 100%;
+  background-color: #ffd1dc; /* Rosa Pastel */
+  margin-bottom: 2px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pyramid-level:hover {
+  background-color: #f3abc5; /* Rosa Delicado */
+}
+
+/* Escada de Métrica */
+.metric-ladder {
+  position: relative;
+  width: 50px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ladder-step {
+  width: 100%;
+  background-color: #ffd1dc; /* Rosa Pastel */
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ladder-step:hover {
+  background-color: #f3abc5; /* Rosa Delicado */
+  transform: scale(1.05);
+}
+
+/* Ajuste específico para a métrica de Employee Engagement */
+.metric-ladder .ladder-step {
+  background-color: #f3abc5; /* Cor de fundo mais forte para a Employee Engagement */
+}
+
+.metric-ladder .ladder-step:last-child {
+  background-color: #e0006d; /* Cor vibrante para o último passo */
+}
+
+/* Ajustes responsivos para a visualização */
+@media (max-width: 1024px) {
+  .metrics-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .metrics-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metric-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
