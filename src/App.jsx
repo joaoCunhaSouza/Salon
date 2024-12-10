@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom'; // Removido o BrowserRouter
 import MainSection from './pages/MainSection';
+import { Register } from './pages/Register';
 import { Schedule } from './pages/Schedule';
 import { MassagePage } from './pages/MassagePage';
 import { Stock } from './pages/Stock';
@@ -21,6 +22,7 @@ const App = () => (
 
     <Routes> {}
       <Route path="/MainSection" element={<MainSection />} />
+      <Route path="/Register" element={<Register />} />
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />

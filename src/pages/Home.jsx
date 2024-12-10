@@ -15,11 +15,7 @@ export function Home() {
                             <h1 className='font'><strong className='letras'>Feel More Beautiful</strong></h1>
                             <p>At Jaque's, our expert stylists and luxurious treatments leave you radiant.</p>
 
-                            <ul>
-                                <li>
-                                    <Link to="/More" className="more-link">Our Services</Link>
-                                </li>
-                            </ul>
+  
                         </div>
                     </div>
                 </Container>
